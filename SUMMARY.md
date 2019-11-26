@@ -1,4 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Manual Project](README.md)
+* [WordPress Project](untitled.md)
+* [RSS Project](rss-project.md)
 
