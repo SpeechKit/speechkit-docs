@@ -1,6 +1,8 @@
-# Manual Project
+---
+description: Get started with SpeechKit
+---
 
-### Get started with SpeechKit <a id="get-started-with-speechkit"></a>
+# Manual Project
 
 ### Prerequisites
 

@@ -1,3 +1,7 @@
+---
+description: How to create an RSS project within the SpeechKit dashboard
+---
+
 # RSS Project
 
 1. Login to your SpeechKit account. If you don’t have an account you can create one [here](https://my.speechkit.io/)
@@ -23,5 +27,5 @@
 
 9. Each time that a story is published to your RSS feed it will be converted to audio and your readers will be able to listen to it using the audio player.![](https://blog.speechkit.io/content/images/downloaded_images/Setup--RSS/1-VmuB4X9ZvNd70CeQYbufqg.gif)
 
-If you are having troubles you can contact us directly on Intercom at [speechkit.io](https://speechkit.io/) or email [\[email protected\]](https://blog.speechkit.io/cdn-cgi/l/email-protection)
+If you are having troubles you can contact us directly on Intercom at [speechkit.io](https://speechkit.io/) or email [support@speechkit.io](mailto:support@speechkit.io).
 
