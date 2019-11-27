@@ -2,7 +2,7 @@
 description: Create your first SpeechKit project
 ---
 
-# Getting Started
+# Creating your first Project
 
 ### Prerequisites
 
