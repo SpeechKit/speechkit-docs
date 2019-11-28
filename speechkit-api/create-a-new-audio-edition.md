@@ -10,7 +10,7 @@ Post a new audio edition
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+This endpoint allows you to add new audio editions to your project.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -27,7 +27,7 @@ Your own internal ID
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="body" type="string" required=true %}
-Text content of your article, max 100000 chars
+Text content of your article \(max 100000 chars\)
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="title" type="string" required=false %}
@@ -51,21 +51,53 @@ Your API key
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Cake successfully retrieved.
+Audio successfully created within the project.
 {% endapi-method-response-example-description %}
 
 ```
-{    "name": "Cake's name",    "recipe": "Cake's recipe name",    "cake": "Binary cake"}
+{
+  "id": 999,
+  "external_id": "123-a",
+  "state": "unprocessed",
+  "media": [
+    {
+      "id": 999,
+      "content_type": "mp3",
+      "url": "http://link.to/the/file.mp3"
+    }
+  ],
+  "deleted": false
+}
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=400 %}
+{% api-method-response-example-description %}
+Invalid request
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=401 %}
+{% api-method-response-example-description %}
+Invalid API key
+{% endapi-method-response-example-description %}
+
+```
+
 ```
 {% endapi-method-response-example %}
 
 {% api-method-response-example httpCode=404 %}
 {% api-method-response-example-description %}
-Could not find a cake matching this query.
+Wrong project ID
 {% endapi-method-response-example-description %}
 
 ```
-{    "message": "Ain't no cake like that."}
+
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
