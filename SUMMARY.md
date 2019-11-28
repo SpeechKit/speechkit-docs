@@ -16,5 +16,5 @@
 * [Create a new audio edition](speechkit-api/create-a-new-audio-edition.md)
 * [Update an audio edition](speechkit-api/update-an-audio-edition.md)
 * [Delete an audio edition](speechkit-api/delete-an-audio-edition.md)
-* [API Explorer](https://app.speechkit.io/api/documentation)
+* [SpeechKit API Explorer](https://app.speechkit.io/api/documentation)
 

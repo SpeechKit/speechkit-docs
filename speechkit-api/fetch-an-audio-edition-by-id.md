@@ -16,11 +16,11 @@ This endpoint allows you to retrieve details of an audio edition using it's ID.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="project\_id" type="string" required=true %}
+{% api-method-parameter name="project\_id" type="integer" required=true %}
 ID of the project
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="audio\_id" type="string" required=true %}
+{% api-method-parameter name="audio\_id" type="integer" required=true %}
 ID or external\_id of the audio
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
