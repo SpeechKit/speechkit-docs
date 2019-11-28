@@ -11,5 +11,7 @@
 
 ## SpeechKit API
 
-* [Untitled](speechkit-api/untitled.md)
+* [Retrieve a list of audio editions](speechkit-api/api-audio-editions.md)
+* [Create a new audio edition](speechkit-api/create-a-new-audio-edition.md)
+* [API Explorer](https://app.speechkit.io/api/documentation)
 
