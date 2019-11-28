@@ -33,7 +33,7 @@ Your API key.
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Cake successfully retrieved.
+Audio successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
@@ -91,10 +91,11 @@ Invalid request.
 
 {% api-method-response-example httpCode=401 %}
 {% api-method-response-example-description %}
-Invalid API key.{
+Invalid API key.
 {% endapi-method-response-example-description %}
 
 ```
+{
   "code": 20,
   "message": "The authentication token was not recognised"
 }
@@ -103,7 +104,7 @@ Invalid API key.{
 
 {% api-method-response-example httpCode=404 %}
 {% api-method-response-example-description %}
-Could not find a project with specified project\_id.
+Could not find a project with specified **project\_id.**
 {% endapi-method-response-example-description %}
 
 ```
