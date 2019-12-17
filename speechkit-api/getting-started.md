@@ -1,5 +1,5 @@
 ---
-description: Introduction to the SpeechKit API and the functionality surrounding it.
+description: Introduction to the SpeechKit API
 ---
 
 # Getting Started
