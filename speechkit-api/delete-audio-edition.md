@@ -42,7 +42,7 @@ Successfully deleted.
 {
   "id": 999,
   "external_id": "123-a",
-  "state": "unprocessed",
+  "state": "processed",
   "media": [
     {
       "id": 999,

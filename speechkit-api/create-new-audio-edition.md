@@ -104,5 +104,9 @@ Wrong project ID.
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% hint style="info" %}
+If you are using the API to both create and retrieve your audio, we advise including a unique **external\_id** with your request that relates to the content, so you can easily retrieve the audio when necessary using this same ID.
+{% endhint %}
+
 For example requests, responses and to test your API calls, check out our [API Explorer](https://staging-app.speechkit.io/api/documentation).
 

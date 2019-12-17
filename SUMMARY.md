@@ -11,10 +11,15 @@
 
 ## SpeechKit API
 
+* [Getting Started](speechkit-api/getting-started.md)
 * [Fetch audio editions from a project](speechkit-api/fetch-audio-editions.md)
 * [Fetch an audio edition by ID](speechkit-api/fetch-audio-edition-by-id.md)
 * [Create a new audio edition](speechkit-api/create-new-audio-edition.md)
 * [Update an audio edition](speechkit-api/update-audio-edition.md)
 * [Delete an audio edition](speechkit-api/delete-audio-edition.md)
 * [SpeechKit API Explorer](https://app.speechkit.io/api/documentation)
+
+## ENHANCED FEATURES <a id="analytics"></a>
+
+* [Integrating Google Analytics](analytics/integrating-google-analytics.md)
 
