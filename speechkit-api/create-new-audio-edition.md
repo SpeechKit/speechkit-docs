@@ -63,7 +63,7 @@ Audio successfully created within the project.
     {
       "id": 999,
       "content_type": "mp3",
-      "url": "http://link.to/the/file.mp3"
+      "url": []
     }
   ],
   "deleted": false
