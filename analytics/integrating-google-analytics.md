@@ -42,35 +42,47 @@ If you also have ads enabled, you may see the following ad-related events:
 * Ad Link Click
 * Ad Logo Click
 
-To make sure you are receiving SpeechKit events, 
-
-We can use segments to filter the traffic
-
-**Create a New Segment**
-
-Click **Conditions** and use the dropdown to select  **Behaviour** &gt; **Event Category** contains SpeechKit Player
-
-Once you have created the segment, go to **Behaviour** &gt; **Events** &gt; **Overview** in the menu on the left. Now click **+ Add Segment** to start filtering by the new segment.
-
-Find and select **SpeechKit Events**, then click **Apply** and you will see the segment added:
-
-![](https://lh3.googleusercontent.com/1f6Yj3QEYqs8GwWOq0txybclylw59hvu9M3gmFlQb_X4-5NVTNK7DbjAeZ9pPe0SWv7yItcgGHLLkE2CyIxPdDnMpZzpK_nZGR8t85vaD2iMPgwd-ITjIYeByRsyvw84hojzez5H)
-
 If you then scroll down and select an **Event Action**, you should see a list of the events along with the percentage of users. This offers a simple overview of how your users are engaging with the content.
 
 ![](https://lh4.googleusercontent.com/Ssv86bS_NR17PP96QSOPTgnBsT8c7xYJ05NKARKFCP4iqXKRKo4XFUzCt_LSAuLEY-GhesBAgtUceqccZPQHBqPgyNjblEcSDip4oDiAABYgKcKo0lUnFqDlpaSvT8iJokJf5wKX)
 
-Select **Event Label** to see the most popular URLs being shown.
+### Creating Segments to filter the data
 
-**Go to Top Events**  
-  
-Go to **Admin** and select **Filters** to **Add Filter to View**.
+We can also use segments to better view the SpeechKit Events within the dashboard.
 
-We want to **Create new Filter** and enter a name of **SpeechKit Events**.
+Firstly, go to **Behaviour** &gt; **Events** &gt; **Overview** in the menu on the left. Now click **+ Add Segment** and you will see a list of segments appear. 
 
-Click _Custom_ to select the custom filter type and select the _Include_ option.
+Instead of choosing an existing segment, click the button to **Create a New Segment** and add a **Segment Name** of **SpeechKit Events**.
 
-Now in the _Filter Field_ drop-down, select **Event Category**. 
+![](../.gitbook/assets/screenshot-2019-12-11-at-13.02.10.png)
 
-Enter Speechkit into the Filter Pattern, to filter by this word.
+Select **Conditions** from the menu on the left and use the dropdown to select  **Behaviour** &gt; **Event Category**, then **contains** and type **SpeechKit Player** to make sure this segment only includes the SpeechKit events.
+
+![](../.gitbook/assets/screenshot-2019-12-11-at-13.04.08.png)
+
+**Save** the segment and you can now start using it to filter your data.
+
+Before we look at the data, we will create one more segment. Click **Create a New Segment** again and call this one **SpeechKit Player Interaction**.
+
+Select **Conditions** from the menu on the left and use the dropdown to select  **Behaviour** &gt; **Event Action**, then **contains** and select **Play,** then **Save**. 
+
+![](../.gitbook/assets/screenshot-2019-12-20-at-15.56.59.png)
+
+This segment will allow us to filter by users who have clicked play.
+
+### Using segments to view the data
+
+We can now use the segments we created to filter the Analytics data. For this example we will filter the users by age demographic. 
+
+Navigate to **Audience** &gt; **Demographics** &gt; **Overview** and click **Add Segment.** Scroll down the list of segments until you see **SpeechKit Events** and **SpeechKit Player Interaction** segments. 
+
+![](../.gitbook/assets/screenshot-2019-12-11-at-13.06.28.png)
+
+Tick the box to the left to select both segments and click **Apply** to add them to the view.
+
+![](../.gitbook/assets/screenshot-2019-12-20-at-00.36.23.png)
+
+In this example, we can see the age distribution of users who had the SpeechKit player load on the page \(orange\), compared to those who pressed play on the player \(green\).
+
+It is quite clear that those users interacting with the player are generally younger in age. You can apply these segments to other analytics to help learn more about your users.
 
