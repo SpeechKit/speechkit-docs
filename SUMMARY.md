@@ -21,5 +21,6 @@
 
 ## ENHANCED FEATURES <a id="analytics"></a>
 
-* [Integrating Google Analytics](analytics/integrating-google-analytics.md)
+* [Google Speakable](analytics/google-speakable.md)
+* [Google Analytics](analytics/integrating-google-analytics.md)
 

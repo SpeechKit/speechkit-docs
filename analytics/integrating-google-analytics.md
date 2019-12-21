@@ -1,8 +1,8 @@
 ---
-description: A guide on how to activate Google Analytics on your SpeechKit account.
+description: A guide on how to integrate Google Analytics on your SpeechKit account.
 ---
 
-# Integrating Google Analytics
+# Google Analytics
 
 ### Getting Setup
 
