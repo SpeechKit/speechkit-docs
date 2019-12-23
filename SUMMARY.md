@@ -22,5 +22,5 @@
 ## ENHANCED FEATURES
 
 * [Google Speakable](enhanced-features/google-speakable.md)
-* [Google Analytics](enhanced-features/integrating-google-analytics.md)
+* [Google Analytics](enhanced-features/google-analytics.md)
 
