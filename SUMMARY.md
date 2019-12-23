@@ -19,8 +19,8 @@
 * [Delete an audio edition](speechkit-api/delete-audio-edition.md)
 * [SpeechKit API Explorer](https://app.speechkit.io/api/documentation)
 
-## ENHANCED FEATURES <a id="analytics"></a>
+## ENHANCED FEATURES
 
-* [Google Speakable](analytics/google-speakable.md)
-* [Google Analytics](analytics/integrating-google-analytics.md)
+* [Google Speakable](enhanced-features/google-speakable.md)
+* [Google Analytics](enhanced-features/integrating-google-analytics.md)
 
