@@ -27,17 +27,17 @@ The current sent of **Event Actions** sent to Analytics from the player are:
 
 * Load \(Fired once, when the player has loaded\)
 * Play \(First time the user clicks play. Subsequent play/pause events are not currently recorded\)
-* 25% Watched
-* 50% Watched
-* 75% Watched
+* 25% Listened
+* 50% Listened
+* 75% Listened
 * Complete
 
 If you also have ads enabled, you may see the following ad-related events:
 
 * Ad Play
-* Ad 25% Watched
-* Ad 50% Watched
-* Ad 75% Watched
+* Ad 25% Listened
+* Ad 50% Listened
+* Ad 75% Listened
 * Ad Complete
 * Ad Link Click
 * Ad Logo Click
