@@ -10,8 +10,11 @@ description: A guide on how to integrate Google Analytics on your SpeechKit acco
 Note that this feature is still in beta and only available on request, so you will need to contact us in order to integrate.
 {% endhint %}
 
-Firstly, an active account with [Google Analytics](http://www.google.com/analytics) is required to use this feature. All we require to get you set up is your unique Google Analytics account number.  
-This number resembles _UA-XXXXXX-X_.
+Firstly, an active account with [Google Analytics](http://www.google.com/analytics) is required to use this feature. All we require to get you set up is your unique Google Analytics account number, which is the code that resembles _UA-XXXXXX-X_.
+
+{% hint style="info" %}
+We advise creating a new property in Google Analytics specifically for the SpeechKit events, which can be done in the _Admin_ section.
+{% endhint %}
 
 Once we have activated Google Analytics for you, events will be sent directly to your Google Analytics account. 
 
