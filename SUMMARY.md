@@ -1,14 +1,14 @@
 # Table of contents
 
 * [=========================](README.md)
-* [Welcome](docs.md)
+* [Welcome](welcome.md)
 
-## Getting Started
+## Getting Started <a id="docs"></a>
 
-* [Creating your first Project](getting-started/getting-started.md)
-* [RSS Project](getting-started/rss-project.md)
-* [WordPress Project](getting-started/wordpress-project.md)
-* [Ghost Project](getting-started/ghost-project.md)
+* [Creating your first Project](docs/getting-started.md)
+* [RSS Project](docs/rss-project.md)
+* [WordPress Project](docs/wordpress-project.md)
+* [Ghost Project](docs/ghost-project.md)
 
 ## SpeechKit API
 
