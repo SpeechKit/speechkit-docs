@@ -6,12 +6,12 @@ description: Enabling SpeechKit player on Google’s Accelerated Mobile Pages (A
 
 ## Adding embed code to your AMP template
 
-To enable the SpeechKit player on AMP, you must add our AMP-specific embed-code to your your template file.
+To enable the SpeechKit player on AMP, you must add our AMP-specific embed code into your your article template.
 
 Copy the snippet below into your AMP template, replacing **\[project-id\]** with your own **Project ID**.
 
 {% code title="HTML Snippet:" %}
-```bash
+```markup
 <amp-iframe id="speechkit-io-iframe" sandbox="allow-scripts allow-same-origin allow-popups" 
 src="https://app.speechkit.io/api/v2/projects/[project-id]/podcasts/iframe.html" 
 layout="fixed-height" frameborder="0" scrolling="no" height="43px" width="auto" >
@@ -28,7 +28,7 @@ The function needs to make a request to the SpeechKit API and perform a check fo
 
 The following snippet of code will generate the request URL needed, simply substitute **\[project-id\]** for your **Project ID**:
 
-```bash
+```javascript
 const sAPIBaseUrl = 'https://app.speechkit.io/api/v2/projects/';
 const sProjectID = '[project-id]';
 const sPageUrl = window.location.href.split(/[?#]/)[0];
