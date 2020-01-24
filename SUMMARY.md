@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Adding AMP support](README.md)
+* [-](README.md)
 * [Welcome](welcome.md)
 
 ## Getting Started <a id="docs"></a>
