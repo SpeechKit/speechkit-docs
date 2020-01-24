@@ -1,7 +1,6 @@
 # Table of contents
 
-* [-](README.md)
-* [Welcome](welcome.md)
+* [Welcome](README.md)
 
 ## Getting Started <a id="docs"></a>
 
