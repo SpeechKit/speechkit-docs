@@ -1,6 +1,6 @@
 # Table of contents
 
-* [=========================](README.md)
+* [Adding AMP support](README.md)
 * [Welcome](welcome.md)
 
 ## Getting Started <a id="docs"></a>
@@ -24,4 +24,5 @@
 
 * [Google Speakable](enhanced-features/google-speakable.md)
 * [Google Analytics](enhanced-features/google-analytics.md)
+* [SpeechKit on AMP](enhanced-features/speechkit-on-amp.md)
 
