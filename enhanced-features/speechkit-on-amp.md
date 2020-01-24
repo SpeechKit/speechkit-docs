@@ -20,11 +20,11 @@ src="https://s3-eu-west-1.amazonaws.com/speechkit-js/logo.svg" placeholder></amp
 ```
 {% endcode %}
 
-There may be cases where the audio hasn't yet been ingested and in these instances, there will be an empty space where the player has failed to load. 
+There may be cases where the audio hasn't yet been ingested and in these instances, there will be an empty space where the player has failed to load.
 
-Due to AMP restrictions, we cannot remove or hide iframe \(as we do normally\), hence, we recommend publishers add an additional javascript function alongside the iframe snippet that will perform this step.
+It is worth noting that the player will not render when audio is unavailable, though due to AMP restrictions we cannot hide an amp-iframe \(as we do normally\). To solve this you will need to add a javascript function to show/hide the amp-frame and this must be added on your side due to the restrictions.
 
-The javascript snippet should check the audio exists by making a simple request to the SpeechKit API and if that request returns a 404, the amp-iframe can be removed or hidden.
+The function needs to make a request to the SpeechKit API and perform a check for the audio. The iframe can then be shown/hidden, depending on the response. 
 
 The following snippet of code will generate the request URL needed, simply substitute **\[project-id\]** for your **Project ID**:
 
