@@ -8,12 +8,12 @@ description: Enabling SpeechKit player on Google’s Accelerated Mobile Pages (A
 
 To enable the SpeechKit player on AMP, you must add our AMP-specific embed-code to your your template file.
 
-Copy the snippet below into your AMP template, replacing **XXXX** with your project ID.
+Copy the snippet below into your AMP template, replacing **\[project-id\]** with your own **Project ID**.
 
 {% code title="HTML Snippet:" %}
 ```bash
 <amp-iframe id="speechkit-io-iframe" sandbox="allow-scripts allow-same-origin allow-popups" 
-src="https://app.speechkit.io/api/v2/projects/XXXX/podcasts/iframe.html" 
+src="https://app.speechkit.io/api/v2/projects/[project-id]/podcasts/iframe.html" 
 layout="fixed-height" frameborder="0" scrolling="no" height="43px" width="auto" >
 <amp-img width="643" height="150" layout="responsive" 
 src="https://s3-eu-west-1.amazonaws.com/speechkit-js/logo.svg" placeholder></amp-img></amp-iframe>
@@ -26,11 +26,11 @@ Due to AMP restrictions, we cannot remove or hide iframe \(as we do normally\), 
 
 The javascript snippet should check the audio exists by making a simple request to the SpeechKit API and if that request returns a 404, the amp-iframe can be removed or hidden.
 
-The following snippet of code will generate the request URL needed, simply substitute **XXXX** for your **Project ID**:
+The following snippet of code will generate the request URL needed, simply substitute **\[project-id\]** for your **Project ID**:
 
 ```bash
 const sAPIBaseUrl = 'https://app.speechkit.io/api/v2/projects/';
-const sProjectID = 'XXXX';
+const sProjectID = '[project-id]';
 const sPageUrl = window.location.href.split(/[?#]/)[0];
 const sRequestUrl = sAPIBaseUrl + sProjectID + '/podcasts/search?url=' + encodeURIComponent(sPageUrl);
 ```
