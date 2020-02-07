@@ -8,6 +8,7 @@
 * [RSS Project](docs/rss-project.md)
 * [WordPress Project](docs/wordpress-project.md)
 * [Ghost Project](docs/ghost-project.md)
+* [Embedding the player](docs/embedding-the-player.md)
 
 ## SpeechKit API
 
