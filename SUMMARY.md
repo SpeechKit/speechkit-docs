@@ -25,4 +25,5 @@
 * [Google Speakable](enhanced-features/google-speakable.md)
 * [Google Analytics](enhanced-features/google-analytics.md)
 * [SpeechKit on AMP](enhanced-features/speechkit-on-amp.md)
+* [RSS Integration](untitled.md)
 
