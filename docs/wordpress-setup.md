@@ -4,7 +4,7 @@ description: >-
   WordPress site.
 ---
 
-# WordPress Project
+# WordPress setup
 
 To begin, login to your SpeechKit account and click New Project to get started.
 

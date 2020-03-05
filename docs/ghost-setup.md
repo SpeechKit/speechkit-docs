@@ -2,7 +2,7 @@
 description: Use the SpeechKit plugin to generate audio for your Ghost articles.
 ---
 
-# Ghost Project
+# Ghost setup
 
 ### Sign up for SpeechKit <a id="sign-up-for-speechkit"></a>
 

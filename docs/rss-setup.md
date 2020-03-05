@@ -4,7 +4,7 @@ description: >-
   articles into audio articles as soon as they are published.
 ---
 
-# RSS Integration
+# RSS setup
 
 ### **Prerequisites**
 
@@ -24,7 +24,7 @@ To get started you will need to create a project. Every SpeechKit account can ha
 
 To start producing audio articles from the articles published in your RSS feed\(s\), you will need to create an RSS project in your SpeechKit account. To do this, select **RSS Feed**. 
 
-![](.gitbook/assets/1.png)
+![](../.gitbook/assets/1.png)
 
 ### 2.2. Enter your website details
 
@@ -33,13 +33,13 @@ Once you have selected the RSS option you will need to enter the following detai
 1. Enter the name of your website. For example: **BBC News**.
 2. Enter the url address of your website. For example: . **https://www.bbc.co.uk/news.** 
 
-![](.gitbook/assets/2.png)
+![](../.gitbook/assets/2.png)
 
 ## 3. Choose a voice to read your articles
 
 Once you have entered your website details, you will need to select the language and voice\(s\) that will be used to produce your audio articles:  
 
-![](.gitbook/assets/3.png)
+![](../.gitbook/assets/3.png)
 
 ### 3.1. Select a language
 
@@ -56,7 +56,7 @@ SpeechKit fetches new articles from your RSS feed\(s\) every 10 minutes. Content
 
 ### 4.1. Add a single RSS feed
 
-![](.gitbook/assets/6.png)
+![](../.gitbook/assets/6.png)
 
 1. Copy your RSS feed URL and insert it. For Example: **http://feeds.bbci.co.uk/news/technology/rss.xml**.
 2. Give your RSS feed a name. For example: **BBC Technology \(Production\)**. 
@@ -73,19 +73,19 @@ For example on **production** the article url might be **https://www.bbc.co.uk/n
 
 You can press the **Add Another RSS Feed** button to add more RSS feeds to your project. 
 
-![](.gitbook/assets/7.png)
+![](../.gitbook/assets/7.png)
 
 ## 5. Save your Project settings
 
 Once you have completed all of the above you must press the **Finish Setup** button to save your project settings. You will then be directed to your project dashboard.
 
-![](.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 ## 6. Listen to your audio articles
 
 Assuming that you have already subscribed to a monthly plan, or are an enterprise customer, you will start to see your audio articles appear in the Content section of your project dashboard. 
 
-![](.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%281%29.png)
 
 {% hint style="info" %}
 If you don't see any audio articles appear in the content tab, then press the ‚ü≥ icon next to the project title. If after 5 minutes, you still don't see any audio articles, contact [support@speechkit.io](mailto:support@speechkit.io). 
@@ -95,19 +95,19 @@ If you don't see any audio articles appear in the content tab, then press the ‚ü
 
 One of the key benefits of using the RSS integration is an audio player will be inserted automatically alongside every article that is published in the RSS feed.
 
-![](.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 ### 7.1. Adding the embed code to your pages
 
 To add the audio player to your articles you will need to go to the Distribution tab in your project dashboard. 
 
-![](.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
 Once there, click on the edit icon \(pencil\). 
 
 Each project contains a unique embed code snippet, consisting of an iframe and a javascript file, which together, will load the audio player.
 
-![](.gitbook/assets/image.png)
+![](../.gitbook/assets/image.png)
 
 1. Click on the copy icon on the bottom-right to copy the audio player embed code.
 2. Add the audio player embed code into your article page template \(we recommend adding it just above the article body\). 
@@ -120,5 +120,5 @@ If you are not happy with the size or position of the player, simply wrap the if
 
 ### 7.2. Adding the player embed code to AMP pages
 
-If your website is enabled for Google AMP, you will need to add a different code snippet to your AMP article template. We recommend you read our instructions on enabling [SpeechKit on AMP](enhanced-features/speechkit-on-amp.md), which will guide you through this process.
+If your website is enabled for Google AMP, you will need to add a different code snippet to your AMP article template. We recommend you read our instructions on enabling [SpeechKit on AMP](../enhanced-features/speechkit-on-amp.md), which will guide you through this process.
 

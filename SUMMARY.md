@@ -4,11 +4,10 @@
 
 ## Getting Started <a id="docs"></a>
 
-* [Creating your first Project](docs/getting-started.md)
-* [RSS Project](docs/rss-project.md)
-* [WordPress Project](docs/wordpress-project.md)
-* [Ghost Project](docs/ghost-project.md)
-* [Embedding the player](docs/embedding-the-player.md)
+* [Manual setup](docs/manual-setup.md)
+* [RSS setup](docs/rss-setup.md)
+* [WordPress setup](docs/wordpress-setup.md)
+* [Ghost setup](docs/ghost-setup.md)
 
 ## SpeechKit API
 
@@ -25,5 +24,4 @@
 * [Google Speakable](enhanced-features/google-speakable.md)
 * [Google Analytics](enhanced-features/google-analytics.md)
 * [SpeechKit on AMP](enhanced-features/speechkit-on-amp.md)
-* [RSS Integration](untitled.md)
 
