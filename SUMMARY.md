@@ -8,6 +8,7 @@
 * [RSS setup](docs/rss-setup.md)
 * [WordPress setup](docs/wordpress-setup.md)
 * [Ghost setup](docs/ghost-setup.md)
+* [API setup](docs/api-setup.md)
 
 ## SpeechKit API
 
