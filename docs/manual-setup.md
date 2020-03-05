@@ -1,5 +1,5 @@
 ---
-description: Create your first SpeechKit project
+description: Create a manual SpeechKit project
 ---
 
 # Manual setup
