@@ -97,7 +97,7 @@ One of the key benefits of using the RSS integration is an audio player will be 
 
 ![](../.gitbook/assets/image%20%284%29.png)
 
-### 7.1. Adding the embed code to your pages
+### 7.1. Adding the audio player code to your pages
 
 To add the audio player to your articles you will need to go to the Distribution tab in your project dashboard. 
 
@@ -105,7 +105,7 @@ To add the audio player to your articles you will need to go to the Distribution
 
 Once there, click on the edit icon \(pencil\). 
 
-Each project contains a unique embed code snippet, consisting of an iframe and a javascript file, which together, will load the audio player.
+Each project has a unique embedded player code snippet, consisting of an iframe and a javascript file, which together, will render the audio player when audio is available.
 
 ![](../.gitbook/assets/image.png)
 
@@ -118,7 +118,7 @@ Once the embed code has been added to the article page template, the javascript 
 If you are not happy with the size or position of the player, simply wrap the iframe with a div element and then add your CSS styles to the container div element.
 {% endhint %}
 
-### 7.2. Adding the player embed code to AMP pages
+### 7.2. Adding the audio player code to AMP pages
 
 If your website is enabled for Google AMP, you will need to add a different code snippet to your AMP article template. We recommend you read our instructions on enabling [SpeechKit on AMP](../enhanced-features/speechkit-on-amp.md), which will guide you through this process.
 
