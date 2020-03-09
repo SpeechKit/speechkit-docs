@@ -2,7 +2,7 @@
 description: Delete an audio edition by ID
 ---
 
-# Delete an audio edition
+# Delete an audio article
 
 {% api-method method="delete" host="https://staging-app.speechkit.io/api/v3" path="/projects/{project\_id}/audio/{audio\_id}" %}
 {% api-method-summary %}

@@ -2,7 +2,7 @@
 description: Update an audio edition by ID
 ---
 
-# Update an audio edition
+# Update an audio article
 
 {% api-method method="put" host="https://staging-app.speechkit.io/api/v3" path="/projects/{project\_id}/audio/{audio\_id}" %}
 {% api-method-summary %}
