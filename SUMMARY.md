@@ -16,7 +16,7 @@
 * [Create a new audio article](api-setup/create-new-audio-article.md)
 * [Update an audio article](api-setup/update-audio-article.md)
 * [Delete an audio article](api-setup/delete-audio-article.md)
-* [Fetch an audio edition by ID](api-setup/fetch-audio-edition-by-id.md)
+* [Fetch an audio article by ID](api-setup/fetch-audio-article-by-id.md)
 * [Fetch audio articles from a project](api-setup/fetch-audio-articles.md)
 * [SpeechKit API Explorer](https://app.speechkit.io/api/documentation)
 

@@ -2,7 +2,7 @@
 description: Request details of a specific audio edition by ID
 ---
 
-# Fetch an audio edition by ID
+# Fetch an audio article by ID
 
 {% api-method method="get" host="https://app.speechkit.io/api/v3" path="/projects/{project\_id}/audio/{audio\_id}" %}
 {% api-method-summary %}

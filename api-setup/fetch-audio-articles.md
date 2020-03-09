@@ -1,6 +1,6 @@
 ---
 description: >-
-  Retrieve a list of audio editions for a specific project, using the project_id
+  Retrieve a list of audio articles for a specific project, using the project_id
   identifier.
 ---
 
@@ -8,11 +8,11 @@ description: >-
 
 {% api-method method="get" host="https://staging-app.speechkit.io/api/v3" path="/projects/{project\_id}/audio" %}
 {% api-method-summary %}
-Get audio editions within a project
+Get audio articles within a project
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to retrieve a list of audio editions from a specified project.
+This endpoint allows you to retrieve a list of audio articles from a specified project.
 {% endapi-method-description %}
 
 {% api-method-spec %}
