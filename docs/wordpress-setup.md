@@ -28,7 +28,7 @@ To start producing audio articles from posts published in WordPress, you will ne
 
 ### 2.2. Enter your website details
 
-Once you have selected the RSS option you will need to enter the following details about your website.
+Once you have selected the WordPress option you will need to enter the following details about your website.
 
 1. Enter the name of your website. For example: **BBC News**.
 2. Enter the url address of your website. For example: . **https://www.bbc.co.uk/news.** 
