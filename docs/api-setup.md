@@ -1,3 +1,9 @@
+---
+description: >-
+  This guide explains how to use our API to convert articles into audio
+  articles.
+---
+
 # API setup
 
 ### **Prerequisites**
