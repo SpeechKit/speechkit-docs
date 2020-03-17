@@ -79,13 +79,13 @@ You can press the **Add Another RSS Feed** button to add more RSS feeds to your 
 
 Once you have completed all of the above you must press the **Finish Setup** button to save your project settings. You will then be directed to your project dashboard.
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 ## 6. Listen to your audio articles
 
 Assuming that you have already subscribed to a monthly plan, or are an enterprise customer, you will start to see your audio articles appear in the Content section of your project dashboard. 
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
 {% hint style="info" %}
 If you don't see any audio articles appear in the content tab, then press the ‚ü≥ icon next to the project title. If after 5 minutes, you still don't see any audio articles, contact [support@speechkit.io](mailto:support@speechkit.io). 
@@ -95,19 +95,19 @@ If you don't see any audio articles appear in the content tab, then press the ‚ü
 
 One of the key benefits of using the RSS integration is an audio player will be inserted automatically alongside every article that is published in the RSS feed.
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 ### 7.1. Adding the audio player code to your pages
 
 To add the audio player to your articles you will need to go to the Distribution tab in your project dashboard. 
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 Once there, click on the edit icon \(pencil\). 
 
 Each project has a unique embedded player code snippet, consisting of an iframe and a javascript file, which together, will render the audio player when audio is available.
 
-![](../.gitbook/assets/image.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
 1. Click on the copy icon on the bottom-right to copy the audio player embed code.
 2. Add the audio player embed code into your article page template \(we recommend adding it just above the article body\). 
