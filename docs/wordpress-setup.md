@@ -24,16 +24,16 @@ To get started you will need to create a project. Every SpeechKit account can ha
 
 To start producing audio articles from posts published in WordPress, you will need to create a WordPress project in your SpeechKit account. To do this, select **WordPress**. 
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 ### 2.2. Enter your website details
 
 Once you have selected the WordPress option you will need to enter the following details about your website.
 
-1. Enter the name of your website. For example: **BBC News**.
-2. Enter the url address of your website. For example: **https://www.bbc.co.uk/news.** 
+1. Website name. For example: **BBC News**.
+2. Website URL. For example: **https://www.bbc.co.uk/news.** 
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 ## 3. Choose a voice to read your articles
 
@@ -56,11 +56,21 @@ You will need your API Key and Project ID to install and activate the SpeechKit 
 
 ![](../.gitbook/assets/image.png)
 
+{% hint style="warning" %}
+**Testing SpeechKit on a staging website?** 
+
+If you are testing SpeechKit on a staging website, we recommend that you create two projects \(each with their own API Key and Project ID\). Otherwise it is likely you will encounter issues.
+{% endhint %}
+
 ## 5. Save your Project settings
 
 Once you have copied and saved the API Key and Project ID you must press the **Finish Setup** button to save your project settings. You will then be directed to your project dashboard.
 
+![](../.gitbook/assets/image%20%286%29.png)
 
+{% hint style="warning" %}
+It is very important that you Finish Setup prior to adding the API Key and Project ID to the WordPress Settings page. Otherwise the Plugin will not work! 
+{% endhint %}
 
 ## 6. Install and Activate the WordPress Plugin
 
@@ -72,28 +82,28 @@ Once you have copied and saved the API Key and Project ID you must press the **F
 4. Search **SpeechKit**.
 5. Press **Install Now**.
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2819%29.png)
 
 ### 6.2. Activate the Plugin
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
 ### 6.3. Go to plugin settings
 
 Once you have activated the plugin, go to the plugin settings.
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 ### 6.4. Update plugin settings
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
-1. Enable SpeechKit.
-2. Enter the API Key that you saved earlier. 
-3. Enter the Project ID that you saved earlier. 
-4. Select the post types that you want created into audio articles.
-5. Enable Telemetry - this sends us diagnostic data so that we can more easily help you resolve any issues that you might have. 
-6. Press Save Settings. 
+1. Check that SpeechKit is **enabled**.
+2. Enter the **API Key** that you saved earlier. 
+3. Enter the **Project ID** that you saved earlier. 
+4. Select the **post types** that you want created into audio articles.
+5. **Enable Telemetry** - this sends us diagnostic data so that we can more easily help you resolve any issues that you might have. 
+6. Press **Save** **Settings**. 
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
@@ -129,9 +139,15 @@ To create a new post with audio:
 4. Enter **Post Text**.
 5. Press **Publish**.
 
+![](../.gitbook/assets/image%20%2815%29.png)
+
 Once you press **Publish** go to view the post. The audio will take between 1-2 minutes to generate. Refresh the page and an audio player will appear between the post title and post text. 
 
-![](../.gitbook/assets/image%20%2812%29.png)
+{% hint style="info" %}
+You can track progress with audio in the **SpeechKit Status** column in Posts. 
+{% endhint %}
+
+![](../.gitbook/assets/image%20%288%29.png)
 
 ### 7.2. Add audio to an existing post
 
@@ -143,15 +159,19 @@ To add audio to an existing post:
 
 Once you press **Update** go to view the post. The audio will take between 1-2 minutes to generate. Refresh the page and an audio player will appear between the post title and post text. 
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 ![](../.gitbook/assets/image%20%282%29.png)
+
+{% hint style="warning" %}
+If you get an **ERROR** in the **SpeechKit Status** column then please contact support@speechkit.io with a link to your post. 
+{% endhint %}
 
 ## 8. Listen to your audio article
 
 Once published the audio will be available on the article via the SpeechKit player. 
 
-![](../.gitbook/assets/image%20%2819%29.png)
+![](../.gitbook/assets/image%20%2822%29.png)
 
 ## 9. Listen 
 

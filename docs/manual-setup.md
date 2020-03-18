@@ -30,7 +30,7 @@ Now that your Project is all set-up, click **Add Article** to add your first art
 In the case of Manual, input the title and body text you wish to convert to audio and then press **Generate Article**.
 {% endhint %}
 
-![Article processing](../.gitbook/assets/image%20%2818%29.png)
+![Article processing](../.gitbook/assets/image%20%2821%29.png)
 
 ![Article ready to be shared](https://blog.speechkit.io/content/images/downloaded_images/Manual-Project-Setup--Text---URL/1-grB0bWtu3izRuoioNbaOhw.png)
 

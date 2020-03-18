@@ -79,7 +79,7 @@ You can press the **Add Another RSS Feed** button to add more RSS feeds to your 
 
 Once you have completed all of the above you must press the **Finish Setup** button to save your project settings. You will then be directed to your project dashboard.
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 ## 6. Listen to your audio articles
 
@@ -95,13 +95,13 @@ If you don't see any audio articles appear in the content tab, then press the ‚ü
 
 One of the key benefits of using the RSS integration is an audio player will be inserted automatically alongside every article that is published in the RSS feed.
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 ### 7.1. Adding the audio player code to your pages
 
 To add the audio player to your articles you will need to go to the Distribution tab in your project dashboard. 
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 Once there, click on the edit icon \(pencil\). 
 
