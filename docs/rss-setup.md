@@ -30,8 +30,8 @@ To start producing audio articles from the articles published in your RSS feed\(
 
 Once you have selected the RSS option you will need to enter the following details about your website.
 
-1. Enter the name of your website. For example: **BBC News**.
-2. Enter the url address of your website. For example: . **https://www.bbc.co.uk/news.** 
+1. Website name. For example: **BBC News**.
+2. Website URL. For example: . **https://www.bbc.co.uk/news.** 
 
 ![](../.gitbook/assets/2.png)
 
