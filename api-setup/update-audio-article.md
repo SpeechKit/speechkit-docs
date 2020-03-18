@@ -10,7 +10,7 @@ Update audio edition
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to update the details of a specific audio edition.
+This endpoint allows you to update the details of a specific audio article.
 {% endapi-method-description %}
 
 {% api-method-spec %}

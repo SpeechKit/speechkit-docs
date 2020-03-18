@@ -1,5 +1,5 @@
 ---
-description: Request details of a specific audio edition by ID
+description: Request details of a specific audio article by ID
 ---
 
 # Fetch an audio article by ID
@@ -10,7 +10,7 @@ Get audio edition by ID
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to retrieve details of an audio edition using it's ID.
+This endpoint allows you to retrieve details of an audio article using it's ID.
 {% endapi-method-description %}
 
 {% api-method-spec %}

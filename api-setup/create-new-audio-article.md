@@ -1,16 +1,16 @@
 ---
-description: Create a new audio edition within a specific project.
+description: Create a new audio article within a specific project.
 ---
 
 # Create a new audio article
 
 {% api-method method="post" host="https://staging-app.speechkit.io/api/v3" path="/projects/{project\_id}/audio" %}
 {% api-method-summary %}
-Post a new audio edition
+Post a new audio article
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to add new audio editions to your project.
+This endpoint allows you to add new audio articles to your project.
 {% endapi-method-description %}
 
 {% api-method-spec %}

@@ -1,5 +1,5 @@
 ---
-description: Delete an audio edition by ID
+description: Delete an audio article by ID
 ---
 
 # Delete an audio article
@@ -10,7 +10,7 @@ Delete audio edition
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to delete 
+This endpoint allows you to delete a specific audio article.
 {% endapi-method-description %}
 
 {% api-method-spec %}
