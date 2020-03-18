@@ -18,7 +18,7 @@ If you're an enterprise customer, you can login to SpeechKit using the email/pas
 
 ## 2. Create a new project
 
-Firstly you will need to create a new project within the dashboard.
+To get started you will need to create a project. Every SpeechKit account can have multiple projects. For example, your company may have two news websites. In this case, each website should have its own project. For Example, **News UK**, which owns **The Times** and **The Sun**, would create a project for each of them.
 
 ### 2.1. Select API
 
