@@ -74,6 +74,8 @@ It is very important that you Finish Setup prior to adding the API Key and Proje
 
 ## 6. Install and Activate the WordPress Plugin
 
+You can find the WordPress Plugin here: [https://wordpress.org/plugins/speechkit/](https://wordpress.org/plugins/speechkit/). 
+
 ### 6.1. Add the SpeechKit Plugin
 
 1. Login to your WordPress admin. 
