@@ -66,7 +66,7 @@ You can create an audio article using the POST request. Use the endpoint below t
 If you are using the API to both create and retrieve your audio, we advise including a unique **external\_id** with your request that relates to the content, so you can easily retrieve the audio when necessary using this same ID.
 {% endhint %}
 
-{% api-method method="post" host="https://staging-app.speechkit.io/api/v3" path="/projects/{project\_id}/audio" %}
+{% api-method method="post" host="https://app.speechkit.io/api/v3" path="/projects/{project\_id}/audio" %}
 {% api-method-summary %}
 Post request to create an audio article
 {% endapi-method-summary %}
