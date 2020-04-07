@@ -4,7 +4,7 @@ description: Update an audio edition by ID
 
 # Update an audio article
 
-{% api-method method="put" host="https://staging-app.speechkit.io/api/v3" path="/projects/{project\_id}/audio/{audio\_id}" %}
+{% api-method method="put" host="https://app.speechkit.io/api/v3" path="/projects/{project\_id}/audio/{audio\_id}" %}
 {% api-method-summary %}
 Update audio edition 
 {% endapi-method-summary %}

@@ -4,7 +4,7 @@ description: Delete an audio article by ID
 
 # Delete an audio article
 
-{% api-method method="delete" host="https://staging-app.speechkit.io/api/v3" path="/projects/{project\_id}/audio/{audio\_id}" %}
+{% api-method method="delete" host="https://app.speechkit.io/api/v3" path="/projects/{project\_id}/audio/{audio\_id}" %}
 {% api-method-summary %}
 Delete audio edition
 {% endapi-method-summary %}

@@ -6,7 +6,7 @@ description: >-
 
 # Fetch audio articles from a project
 
-{% api-method method="get" host="https://staging-app.speechkit.io/api/v3" path="/projects/{project\_id}/audio" %}
+{% api-method method="get" host="https://app.speechkit.io/api/v3" path="/projects/{project\_id}/audio" %}
 {% api-method-summary %}
 Get audio articles within a project
 {% endapi-method-summary %}

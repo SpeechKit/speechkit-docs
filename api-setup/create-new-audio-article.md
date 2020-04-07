@@ -4,7 +4,7 @@ description: Create a new audio article within a specific project.
 
 # Create a new audio article
 
-{% api-method method="post" host="https://staging-app.speechkit.io/api/v3" path="/projects/{project\_id}/audio" %}
+{% api-method method="post" host="https://app.speechkit.io/api/v3" path="/projects/{project\_id}/audio" %}
 {% api-method-summary %}
 Post a new audio article
 {% endapi-method-summary %}
