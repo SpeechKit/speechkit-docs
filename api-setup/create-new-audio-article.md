@@ -10,7 +10,8 @@ Post a new audio article
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to add new audio articles to your project.
+This endpoint allows you to add new audio articles to your project.  
+All requests must include a **Content-Type** header of **application/json**.
 {% endapi-method-description %}
 
 {% api-method-spec %}
