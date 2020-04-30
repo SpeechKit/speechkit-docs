@@ -47,7 +47,7 @@ If you also have ads enabled, you may see the following ad-related events:
 
 If you then scroll down and select an **Event Action**, you should see a list of the events along with the percentage of users. This offers a simple overview of how your users are engaging with the content.
 
-![](https://lh4.googleusercontent.com/Ssv86bS_NR17PP96QSOPTgnBsT8c7xYJ05NKARKFCP4iqXKRKo4XFUzCt_LSAuLEY-GhesBAgtUceqccZPQHBqPgyNjblEcSDip4oDiAABYgKcKo0lUnFqDlpaSvT8iJokJf5wKX)
+![](../.gitbook/assets/screenshot-2020-04-30-at-11.32.24.png)
 
 ### Creating Segments to filter the data
 
