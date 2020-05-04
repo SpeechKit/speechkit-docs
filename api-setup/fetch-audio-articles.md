@@ -54,7 +54,10 @@ Audio successfully retrieved.
         "url": "https://speechkit-staging.s3.amazonaws.com/audio/projects/123/podcasts/123456/media/1.mp3"
       }
     ],
-    "deleted": false
+    "deleted": false,
+    "metadata" :{
+      "key": string
+    }
   },
   
   {
@@ -73,7 +76,10 @@ Audio successfully retrieved.
         "url": "https://speechkit-staging.s3.amazonaws.com/audio/projects/123/podcasts/123456/media/1.mp3"
       }
     ],
-    "deleted": false
+    "deleted": false,
+    "metadata" :{
+      "key": string
+    }
   }
 ]
 ```

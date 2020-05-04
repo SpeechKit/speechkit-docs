@@ -26,6 +26,10 @@ ID or external\_id of the audio
 {% endapi-method-path-parameters %}
 
 {% api-method-body-parameters %}
+{% api-method-parameter name="metadata" type="object" required=false %}
+Any custom data related to the audio article
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="api\_key" type="string" required=true %}
 Your API key
 {% endapi-method-parameter %}
@@ -70,7 +74,10 @@ Audio successfully updated.
       "url": "http://link.to/the/file.mp3"
     }
   ],
-  "deleted": false
+  "deleted": false,
+  "metadata" :{
+    "key": string
+  }
 }
 ```
 {% endapi-method-response-example %}

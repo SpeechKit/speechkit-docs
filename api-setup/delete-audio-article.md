@@ -50,7 +50,10 @@ Successfully deleted.
       "url": "http://link.to/the/file.mp3"
     }
   ],
-  "deleted": false
+  "deleted": true,
+  "metadata" :{
+    "key": string
+  }
 }
 ```
 {% endapi-method-response-example %}

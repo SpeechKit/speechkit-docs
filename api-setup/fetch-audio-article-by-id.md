@@ -50,7 +50,10 @@ Audio edition successfully retrieved.
       "url": "http://link.to/the/file.mp3"
     }
   ],
-  "deleted": false
+  "deleted": false,
+  "metadata" :{
+    "key": string
+  }
 }
 ```
 {% endapi-method-response-example %}

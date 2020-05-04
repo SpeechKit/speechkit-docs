@@ -23,6 +23,10 @@ ID of the project you wish to add audio to
 {% endapi-method-path-parameters %}
 
 {% api-method-body-parameters %}
+{% api-method-parameter name="metadata" type="object" required=false %}
+Any custom data related to the audio article
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="external\_id" type="string" required=false %}
 Your own internal ID
 {% endapi-method-parameter %}
@@ -67,7 +71,10 @@ Audio successfully created within the project.
       "url": []
     }
   ],
-  "deleted": false
+  "deleted": false,
+  "metadata" :{
+    "key": string
+  }
 }
 ```
 {% endapi-method-response-example %}
