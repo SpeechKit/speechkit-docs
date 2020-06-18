@@ -124,5 +124,5 @@ Could not find a project with specified **project\_id.**
 {% endapi-method-spec %}
 {% endapi-method %}
 
-For example requests, responses and to test your API calls, check out our [API Explorer](https://staging-app.speechkit.io/api/documentation).
+For example requests, responses and to test your API calls, check out our [API Explorer](https://app.speechkit.io/api/documentation).
 
