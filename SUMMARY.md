@@ -18,6 +18,9 @@
 * [Delete an audio article](api-setup/delete-audio-article.md)
 * [Fetch an audio article by ID](api-setup/fetch-audio-article-by-id.md)
 * [Fetch audio articles from a project](api-setup/fetch-audio-articles.md)
+
+---
+
 * [SpeechKit API Explorer](https://app.speechkit.io/api/documentation)
 
 ## ENHANCED FEATURES
